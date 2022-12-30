@@ -1,0 +1,270 @@
+<html>
+   <head>
+     <meta charset="UTF-8">
+   <link rel="stylesheet" href="compra.css">
+   <link rel="shortcut icon" href="logo.png"/>
+       <title>
+        Liverpool
+       </title>
+       <script type="text/javascript">
+         function val(){
+          var i = document.getElementById('w').value;
+          if (i == null) {
+            alert("Selecione um tamanho garai");
+            return false;
+          }
+         }
+       </script>
+       <script src="js/jquery.js"></script>
+       <script type="text/javascript">
+         $(document).ready(function(){
+          $("#open").click(function(){
+            $(".content-box").fadeIn();
+          });
+          $("#clo").click(function(){
+            $(".content-box").fadeOut();
+          })
+         })
+       </script>
+   </head>
+       <body>
+        <div class="content-box">
+          <div class="box">
+            <div class="close">
+        <a href="#" id="clo">&times;</a>
+      </div>
+            <center>
+              <span><h2>Confirme seu Login</h2></span>
+              <div class="ipt1">
+          <input type="email" name="email" placeholder="Email">
+        </div>
+        <div class="ipt1">
+          <input type="password" name="senha" placeholder="Senha">
+        </div>
+        <div class="ipt2">
+          <input type="submit" value="Acessar" title="Acesse por favor">
+        </div>
+            </center>
+          </div>
+        </div>
+        <div class="global">
+          <header>
+              <div class="lo"><img src="logo.png" height="150px"/></div>
+            </header>
+            
+            <div id="divBusca">
+              <img src="anuncios/lupa.png" height="30px" width="35px" alt="Buscar..."/>
+              <input type="text" id="txtBusca" placeholder="Buscar..."/>
+              <button id="btnBusca">Buscar</button>
+            </div>
+            
+            <div id='cssmenu'>
+            <ul>
+               <li class=' active last'><a href='menu principal.html'><span>Principal</span></a></li>
+               <li class=' has-sub'><a href="blusas.html"><span>Blusas</span></a>
+                  <ul>
+                     <li class='has-sub'><a href="Nacionais.html"><span>Nacionais</span></a>
+                     </li>
+                     <li class='has-sub'><a href="internacionais.html"><span>Internacionais</span></a>           
+                     </li>
+                 <li class='has-sub'><a href="Seleções.html"><span>Seleções</span></a>  
+                     </li>
+                  </ul>
+               </li>
+               <li class='has-sub'><a href="shorts.html"><span>Calções</span></a>
+               <ul>
+                     <li class='has-sub'><a href="calções nacio.htm"><span>Nacionais</span></a>
+                     </li>
+                     <li class='has-sub'><a href="calções inter.htm"><span>Internacionais</span></a>  
+                     </li>
+                 <li class='has-sub'><a href="calções sele.htm"><span>Seleções</span></a>  
+                     </li>
+                  </ul>
+               <li class='has-sub'><a href="chuteiras.html"><span>Chuteiras</span></a>
+               <ul>
+                     <li class='has-sub'><a href="#"><span>+</span></a>
+                 <ul>
+                 <li class='last'><a href="mizuno.html"><span>Mizuno</span></a>  
+                     </li>
+                 <li class='last'><a href="topper.html"><span>Topper</span></a>  
+                     </li>
+                 <li class='last'><a href="kappa.html"><span>Kappa</span></a>  
+                     </li>
+                 <li class='last'><a href="puma.html"><span>Puma</span></a>  
+                     </li>
+                 <li class='last'><a href="penalty.html"><span>Penalty</span></a>  
+                     </li>
+                  </ul>
+                     </li>
+                     <li class='has-sub'><a href="nike.html"><span>Nike</span></a>
+                     </li>
+                     <li class='has-sub'><a href="adidas.html"><span>Adidas</span></a>  
+                     </li>
+                 <li class='has-sub'><a href="umbro.html"><span>Umbro</span></a>  
+                 </li>
+                  </ul>
+                  <li class='has-sub'><a href="luvas.html"><span>Luvas</span></a>
+                 <ul>
+                 <li class='last'><a href="lupu.html"><span>Puma</span></a>  
+                     </li>
+                 <li class='last'><a href="lupe.html"><span>Penalty</span></a>  
+                     </li>
+                     <li class='has-sub'><a href="luto.html"><span>Topper</span></a>
+                     </li>
+                     <li class='has-sub'><a href="luad.html"><span>Adidas</span></a>  
+                     </li>
+                 </li>
+            </ul>
+              </li>
+               <li class='has-sub'><a href="bolas.html"><span>Bolas</span></a>
+                 <ul>
+                 <li class='last'><a href="bope.html"><span>Penalty</span></a>  
+                     </li>
+                     <li class='has-sub'><a href="boni.html"><span>Nike</span></a>
+                     </li>
+                     <li class='has-sub'><a href="boad.html"><span>Adidas</span></a>  
+                     </li>
+                 </li>
+            </ul>
+              </li>
+               <li class='has-sub'><a href="agasalhos.html"><span>Agasalhos</span></a>
+                 <ul>
+                 <li class='last'><a href="agna.html"><span>Nacional</span></a>  
+                     </li>
+                 <li class='last'><a href="agni.html"><span>Internacionais</span></a>  
+                     </li>
+                     <li class='has-sub'><a href="agse.html"><span>Seleções</span></a>
+                     </li>
+                 </li>
+            </ul>
+              </li>
+               <li class='last'><a href="contato.html"><span>Contato</span></a></li>
+               <li class='last'><a href="formulario.html"><span>Cadastre-se</span></a></li>
+            </ul>
+            </div>
+             <div class="imagem">
+                <div class="flip-container"
+                ontouchstart="this.classList.toggle('hover');">   
+                  <div class="flipper">     
+                    <div class="front">       
+                        <img src="blusas/liverpool.jpg" width="450px" height="500px">    
+                    </div>      
+                    <div class="back">        
+                      <img src="blusas/liverpool costas.jpg" width="450px" height="500px">
+                    </div>    
+                  </div>  
+                </div>
+             </div>
+
+
+
+               
+             <div class="divisao">
+               <br>
+               <h1>Blusa do Liverpool-2019</h1>
+               <p><h4>Código do produto: 640923</h4></p>
+               <br>
+               <p><h2>R$ 299,99</h2></p>
+               até<font color="#ff8c00"><b> 4x</b></font> de<font color="#ff8c00"><b> R$ 74,99</b></font> sem juros
+               <br>
+               <br>
+               <p><div class="as"><b>R$ 286,99<font size="3px"> no boleto</font></b></div>
+                <button class="botao botaocompra" id="open">
+                  <img src="carrinhodecompra2.png" width="25px" height="24px"> Comprar
+                    </button>
+              <br>
+              <br>
+              <br>
+              <b>Cartão de Crédito <i>Parcelas</i></b>
+              <br>
+              <br>
+              <input type="radio" name="parcela" value="parcela"/>
+              <font size="2px"><b>1x</b> de R$ 299,99 sem juros</font>
+              <br>
+              <input type="radio" name="parcela" value="parcela"/>
+              <font size="2px"><b>2x</b> de R$ 149,99 sem juros</font>
+              <br>
+              <input type="radio" name="parcela" value="parcela"/>
+              <font size="2px"><b>3x</b> de R$ 99,99 sem juros</font>
+              <br>
+              <input type="radio" name="parcela" value="parcela"/>
+              <font size="2px"><b>4x</b> de R$ 74,99 sem juros</font>
+              <br>
+              <br>
+              <div class="cont">
+                  <input type="radio" name="parcela" value="parcela"/>
+             <b>Boleto Bancário <i>R$ 286,99</i></b>
+             <br>
+             <br>
+             <b>Tamanho: </b>
+             <input type="radio" name="tamanho" id="w" value="tamanho"/><label id="tamanho"><b> PP</b></label>
+             <input type="radio" name="tamanho" value="tamanho"/><label id="tamanho"><b> P</b></label>
+             <input type="radio" name="tamanho" value="tamanho"/><label id="tamanho"><b> M</b></label>
+             <input type="radio" name="tamanho" value="tamanho"/><label id="tamanho"><b> G</b></label>
+             <input type="radio" name="tamanho" value="tamanho"/><label id="tamanho"><b> GG</b></label>
+             <br>
+             <br>
+             <font size="5">Detalhes do Produto</font>
+            <center>
+             <div class="detalhes">
+               <br>
+               <br>
+               <p><b>Fabricante: New Balance.</b></p>
+               <br>
+               <p><b>Garantia: Contra defeitos.</b></p>
+               <br>
+               <p><b>Cor: vermelho.</b></p>
+
+             </div>
+            </center>
+                </div>
+             </div>
+             <div class="prop">
+              <img src="anuncios/cartola.jpg" width="500px" height="190px"> 
+             </div>
+              <center>
+             <footer id="myFooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="travel">
+                        <div class="col-sm-2">
+                           <div class="infor"> <h5>Informações</h5></div>
+                            <ul>
+                                <li><a href="sobre a loja.html">Sobre a empresa</a></li>
+                                <li><a href="politica de emtrega.html">Politica de emtrega</a></li>
+                                <li><a href="politica de privacidade.html">Politica de privacidade, termos e condições</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="travel">
+                        <div class="col-sm-2">
+                            <div class="ser"><h5>Serviços ao cliente</h5></div>
+                            <ul>
+                              <br>
+                                <li><a href="contato.html">Entre em contato</a></li>
+                                <li><a href="solicitar devolçução.html">Solicitar devolução</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="travel">
+                        <div class="col-sm-2">
+                            <div class="outros"><h5>Outros serviços</h5></div>
+                            <ul>
+                              <br>
+                              
+                                <li><a href="Produtos por marca.html">Produtos por marca</a></li>
+                                <li><a href="produtos em promoção.html">Produtos em promoção</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p>© New Sports 2018-2019 - São Benedito-CE - Bairro do Cruzeiro - CEP: 62370-000</p>
+                </div>
+            </footer>
+            </center>
+
+        </div>
+      </body>
+</html>

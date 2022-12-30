@@ -1,0 +1,937 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="shortcut icon" href="logo.png"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+   <link rel="shortcut icon" href="../favicon.ico"> 
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
+   
+   <title>Chuteiras</title>
+ <style>
+ .mySlides {display:none;}
+</style>
+</head>
+<body>
+	<header>
+  <div class="lo"><img src="logo.png" height="150px"/></div>
+</header>
+
+<div id="divBusca">
+  <img src="anuncios/lupa.png" height="30px" width="35px" alt="Buscar..."/>
+  <input type="text" id="txtBusca" placeholder="Buscar..."/>
+  <button id="btnBusca">Buscar</button>
+</div>
+
+<div id='cssmenu'>
+  <ul>
+     <li class='  last'><a href='menu principal.html'><span>Principal</span></a></li>
+     <li class=' has-sub'><a href="blusas.html"><span>Blusas</span></a>
+        <ul>
+           <li class='has-sub'><a href="Nacionais.html"><span>Nacionais</span></a>
+           </li>
+           <li class='has-sub'><a href="internacionais.html"><span>Internacionais</span></a>           
+           </li>
+       <li class='has-sub'><a href="Seleções.html"><span>Seleções</span></a>  
+           </li>
+        </ul>
+     </li>
+     <li class='has-sub'><a href="shorts.html"><span>Calções</span></a>
+     <ul>
+           <li class='has-sub'><a href="calções nacio.htm"><span>Nacionais</span></a>
+           </li>
+           <li class='has-sub'><a href="calções inter.htm"><span>Internacionais</span></a>  
+           </li>
+       <li class='has-sub'><a href="calções sele.htm"><span>Seleções</span></a>  
+           </li>
+        </ul>
+     <li class='active has-sub'><a href="chuteiras.html"><span>Chuteiras</span></a>
+     <ul>
+           <li class='has-sub'><a href="#"><span>+</span></a>
+       <ul>
+       <li class='last'><a href="kappa.html"><span>Kappa</span></a>  
+           </li>
+       <li class='last'><a href="puma.html"><span>Puma</span></a>  
+           </li>
+       <li class='last'><a href="penalty.html"><span>Penalty</span></a>  
+           </li>
+        </ul>
+           </li>
+           <li class='has-sub'><a href="nike.html"><span>Nike</span></a>
+           </li>
+           <li class='has-sub'><a href="adidas.html"><span>Adidas</span></a>  
+           </li>
+       <li class='has-sub'><a href="umbro.html"><span>Umbro</span></a>  
+       </li>
+        </ul>
+    </li>
+     <li class='has-sub'><a href="bolas.html"><span>Bolas</span></a>
+       <ul>
+       <li class='last'><a href="bope.html"><span>Penalty</span></a>  
+           </li>
+           <li class='has-sub'><a href="boni.html"><span>Nike</span></a>
+           </li>
+           <li class='has-sub'><a href="boad.html"><span>Adidas</span></a>  
+           </li>
+       </li>
+  </ul>
+    </li>
+     <li class='has-sub'><a href="agasalhos.html"><span>Agasalhos</span></a>
+       <ul>
+       <li class='last'><a href="agna.html"><span>Nacional</span></a>  
+           </li>
+       <li class='last'><a href="agni.html"><span>Internacionais</span></a>  
+           </li>
+           <li class='has-sub'><a href="agse.html"><span>Seleções</span></a>
+           </li>
+       </li>
+  </ul>
+    </li>
+     <li class='last'><a href="contato.html"><span>Contato</span></a></li>
+     <li class='last'><a href="formulario.html"><span>Cadastre-se</span></a></li>
+  </ul>
+  </div>
+<br>
+<div class="ags">
+<br><div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_ka_verdepreto.html"><img src="chuteiras/chut_ka_verdepreto.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Verde e Preto<p>R$160,99</b></p>
+  </div><a href="chut_ka_verdepreto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ka_laranja.html"><img src="chuteiras/chut_ka_laranja.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Laranja<p>R$179,99</b></p>
+  </div><a href="chut_ka_laranja.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_ka_verde.html"><img src="chuteiras/chut_ka_verde.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Verde<p>R$139,99</b></p>
+  </div><a href="chut_ka_verde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_ka_vinho.html"><img src="chuteiras/chut_ka_prata.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Prata<p>R$180,99</b></p>
+  </div><a href="chut_ka_vinho.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_ka_azul.html"><img src="chuteiras/chut_ka_azul.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Azul <p>R$179,99</b></p>
+  </div><a href="chut_ka_azul.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ka_dourada.html"><img src="chuteiras/chut_ka_dourada.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Dourada<p>R$150,99</b></p>
+  </div><a href="chut_ka_dourada.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_ka_branco.html"><img src="chuteiras/chut_ka_branco.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Branca<p>R224,99</b></p>
+  </div> <a href="chut_ka_branco.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_ka_preta.html"><img src="chuteiras/chut_ka_preta.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Preta e Amarelo<p>R$179,99</b></p>
+  </div> <a href="chut_ka_preta.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_ka_azulvermelho.html"><img src="chuteiras/chut_ka_azulvermelho.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Azul e Vermelho<p>R$160,00</b></p>
+  </div> <a href="chut_ka_azulvermelho.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ka_ovinho.html"><img src="chuteiras/chut_ka_ovinho.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Kaapa Pintada <p>R$169,99</b></p>
+  </div><a href="chut_ka_ovinho.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_ka_azulverde.html"><img src="chuteiras/chut_ka_azulverde.jpg" 
+  width="210px" height="215px"></a>
+  <p><b><p>Chuteira Kaapa Azul e Verde<p> R$179,99</b></p>
+  </div> <a href="chut_ka_azulverde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_ka_ciano2.html"><img src="chuteiras/chut_ka_ciano.jpg"
+  width="210px" height="215px"></a>
+  <p><b><p>Chuteira Kaapa Ciano <p> R$189,99</b></p>
+  </div><a href="chut_ka_ciano2.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  </div>
+<br><div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_pu_laranjapreto.html"><img src="chuteiras/chut_pu_laranjapreto.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Laranja e Preta<p>R$160,99</b></p>
+  </div><a href="chut_pu_laranjapreto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_pu_amareloazul.html"><img src="chuteiras/chut_pu_amareloazul.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Amarela e Azul<p>R$179,99</b></p>
+  </div><a href="chut_pu_amareloazul.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_pu_pretao.html"><img src="chuteiras/chut_pu_pretao.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Laranja e Preto<p>R$139,99</b></p>
+  </div><a href="chut_pu_pretao.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_pu_preto.html"><img src="chuteiras/chut_pu_verdes.jpeg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Preta e Ciano<p>R$180,99</b></p>
+  </div><a href="chut_pu_preto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_pu_verdepreto.html"><img src="chuteiras/chut_pu_verdepreto.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Verde e Preto <p>R$179,99</b></p>
+  </div><a href="chut_pu_verdepreto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_pu_brancovermelho.html"><img src="chuteiras/chut_pu_brancovermelho.jpg " 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Branca e Vermelha<p>R$150,99</b></p>
+  </div><a href="chut_pu_brancovermelho.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_pu_laranja.html"><img src="chuteiras/chut_pu_laranja.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Laranja<p>R224,99</b></p>
+  </div> <a href="chut_pu_laranja.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_pu_pretoamarelo.html"><img src="chuteiras/chut_pu_pretoamarelo.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Preto Amarelo<p>R$179,99</b></p>
+  </div><a href="chut_pu_pretoamarelo.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_pu_verde.html"><img src="chuteiras/chut_pu_verde.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Verde<p>R$160,00</b></p>
+  </div> <a href="chut_pu_verde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_pu_azulverde.html"><img src="chuteiras/chut_pu_azulverde.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Puma Azul e Verde <p>R$169,99</b></p>
+  </div><a href="chut_pu_azulverde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_pu_amarelo.html"><img src="chuteiras/chut_pu_amarelo.jpg" 
+  width="210px" height="215px"></a>
+  <p><b><p>Chuteira Puma Amarelo<p> R$179,99</b></p>
+  </div><a href="chut_pu_amarelo.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_pu_brancoazul.html"><img src="chuteiras/chut_pu_brancoazul.jpg"
+  width="210px" height="215px"></a>
+  <p><b><p>Chuteira Puma Branco <p> R$189,99</b></p>
+  </div><a href="chut_pu_brancoazul.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+<br><div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_pe_laranjapreto.html"><img src="chuteiras/chut_pe_laranjapreto.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Penalty Laranja e Preta<p>R$160,99</b></p>
+  </div><a href="chut_pe_laranjapreto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_pe_verdeamarelo.html"><img src="chuteiras/chut_pe_verdeamarelo.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Penalty Amarela e Verde<p>R$179,99</b></p>
+  <p><a href="chut_pe_verdeamarelo.html">
+  </div>
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_pe_prata.html"><img src="chuteiras/chut_pe_prata.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Penalty Prata<p>R$139,99</b></p>
+  </div><a href="chut_pe_prata.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_pe_azulverde.html"><img src="chuteiras/chut_pe_azulverde.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Penalty Azul e Verde<p>R$180,99</b></p>
+  </div><a href="chut_pe_azulverde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_pe_pretoverde.html"><img src="chuteiras/chut_pe_pretoverde.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Penalty Verde e Preto <p>R$179,99</b></p>
+  </div><a href="chut_pe_pretoverde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_pe_branco.html"><img src="chuteiras/chut_pe_branco.jpg
+  " 
+   width="250px" height="215px"></a>
+  <p><b>Chuteira Penalty Branca <p>R$150,99</b></p>
+  </div><a href="chut_pe_branco.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_pe_laranja.html"><img src="chuteiras/chut_pe_laranja.jpg" 
+  width="230px" height="215px"></a>
+  <p><b>Chuteira Penalty Laranja<p>R224,99</b></p>
+  </div><a href="chut_pe_laranja.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_pe_verdepreto.html"><img src="chuteiras/chut_pe_verdepreto.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Penalty Preta e Verde <p>R$179,99</b></p>
+  </div><a href="chut_pe_verdepreto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_pe_azul.html"><img src="chuteiras/chut_pe_azul.jpg" 
+   width="240px" height="215px"></a>
+  <p><b>Chuteira Penalty Azul<p>R$160,00</b></p>
+  </div><a href="chut_pe_azul.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_pe_rosa.html"><img src="chuteiras/chut_pe_rosa.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Penalty Rosa <p>R$169,99</b></p>
+  </div><a href="chut_pe_rosa.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_pe_verdelistra.html"><img src="chuteiras/chut_pe_verdelistra2.jpg" 
+  width="230px" height="215px"></a>
+  <p><b><p>Chuteira Penalty Listrada<p> R$179,99</b></p>
+  </div><a href="chut_pe_verdelistra.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_pe_verde.html"><img src="chuteiras/chut_pe_verde.jpg"
+  width="210px" height="215px"></a>
+  <p><b><p>Chuteira Penalty Verde <p> R$189,99</b></p>
+  </div><a href="chut_pe_verde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+<br><div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_um_branco.html"><img src="chuteiras/chut_um_branco.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Branco<p>R$149,99</b></p>
+  </div>
+  <a href="chut_um_branco.html">
+  <button  class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_um_pretolaranja.html"><img src="chuteiras/chut_um_pretolaranja.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Preta e Larsnja <p>R$179,99</b></p>
+  </div>
+  <a href="chut_um_pretolaranja.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_um_brancorosa.html"><img src="chuteiras/chut_um_brancorosa.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Branca e Rosa<p>R$139,99</b></p>
+  </div>
+  <a href="chut_um_brancorosa.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_um_ciano.html"><img src="chuteiras/chut_um_ciano.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Ciano<p>R$180,99</b></p>
+  </div>
+  <a href="chut_um_ciano.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_um_vinho.html"><img src="chuteiras/chut_um_vinho.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Vinho <p>R$179,99</b></p>
+  </div>
+  <a href="chut_um_vinho.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_um_rosa.html"><img src="chuteiras/chut_um_rosa.jpg " 
+   width="240px" height="215px"></a>
+  <p><b>Chuteira Umbro Rosa e Azul<p>R$150,99</b></p>
+  </div>
+  <a href="chut_um_rosa.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_um_laranjabranco"><img src="chuteiras/chut_um_laranjabranco.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Laranja e Branco<p>R224,99</b></p>
+  </div>
+  <a href="chut_um_laranjabranco">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_um_preto.html"><img src="chuteiras/chut_um_preto.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Preto<p>R$179,99</b></p>
+  </div>
+  <a href="chut_um_preto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_um_azul.html"><img src="chuteiras/chut_um_azul.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Azul<p>R$160,00</b></p>
+  </div>
+  <a href="chut_um_azul.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_um_azulpreto.html"><img src="chuteiras/chut_um_azulpreto.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Umbro Azul e Preta <p>R$169,99</b></p>
+  </div>
+  <a href="chut_um_azulpreto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_um_laranja.html"><img src="chuteiras/chut_um_laranja.jpg" 
+  width="220px" height="215px"></a>
+  <p><b><p>Chuteira Umbro Laranja<p> R$179,99</b></p>
+  </div>
+  <a href="chut_um_laranja.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_um_bracoazul.html"><img src="chuteiras/chut_um_brancoazul.jpg"
+  width="210px" height="215px"></a>
+  <p><b><p>Chuteira Umbro Branca <p> R$189,99</b></p>
+  </div>
+  <a href="chut_um_bracoazul.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  </div>
+
+  <br><div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_ad_verde.html"><img src="chuteiras/adidas5.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Adidas Verde<p>R$169,99</b></p>
+  </div><a href="chut_ad_verde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ad_laranja.html"><img src="chuteiras/chut_ad_laranja.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Adidas Laranja<p>R$179,99</b></p>
+  </div><a href="chut_ad_laranja.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_ad_azulverde.html"><img src="chuteiras/chut_ad_azulverde.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Adidas Azul e Verde<p>R$139,99</b></p>
+  </div><a href="chut_ad_azulverde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_ad_azul.html"><img src="chuteiras/chut_ad_azul.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Adidas Azul<p>R$189,99</b></p>
+  </div><a href="chut_ad_azul.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_ad_rosa.html"><img src="chuteiras/chut_ad_rosa.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Adidas Rosa <p>R$179,99</b></p>
+  </div><a href="chut_ad_rosa.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ad_branca.html"><img src="chuteiras/chut_ad_branca.jpg " 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Adidas Branca<p>R$150,99</b></p>
+  </div><a href="chut_ad_branca.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_ad_vermelho.html"><img src="chuteiras/chut_ad_vermelho.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Adidas Vermelha<p>R229,99</b></p>
+  </div><a href="chut_ad_vermelho.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_ad_ouro.html"><img src="chuteiras/chut_ad_ouro.jpg"
+  width="230px" height="215px"></a>
+  <p><b>Chuteira Adidas Dourada<p>R$179,99</b></p>
+  </div><a href="chut_ad_ouro.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_ad_pretoouro.html"><img src="chuteiras/chut_ad_pretoouro.jpg" 
+   width="270px" height="215px"></a>
+  <p><b>Chuteira Adidas Preto e Dourada<p>R$160,00</b></p>
+  </div><a href="chut_ad_pretoouro.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ad_amarelo.html"><img src="chuteiras/chut_ad_amarelo.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Adidas Verde Limão<p>R$169,99</b></p>
+  </div><a href="chut_ad_amarelo.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_ad_azulbranca.html"><img src="chuteiras/chut_ad_azulbranca.jpg" 
+  width="230px" height="215px"></a>
+  <p><b><p>Chuteira Adidas Branca e Azul<p> R$179,99</b></p>
+  </div> <a href="chut_ad_azulbranca.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_ad_preto.html"><img src="chuteiras/chut_ad_preto.jpg"
+  width="210px" height="215px"></a>
+  <p><b><p>Chuteira Adidas Preta e Vermelho <p> R$189,99</b></p>
+  </div><a href="chut_ad_preto.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_ni_branca.html"><img src="chuteiras/chut_ni_branca.jpg" 
+   width="230px" height="215px"></a>
+  <p><b>Chuteira Nike branca<p>R$259,99</b></p>
+  </div><a href="chut_ni_branca.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ni_ouro.html"><img src="chuteiras/chut_ni_ouro.jpg" 
+   width="230px" height="215px"></a>
+  <p><b>Chuteira Nike dourada<p>R$179,99</b></p>
+  </div><a href="chut_ni_ouro.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_ni_rosa.html"><img src="chuteiras/chut_ni_rosa.jpg" 
+  width="250px" height="215px"></a><br><br><br>
+  <p><b>Chuteira Nike rosa<p>R$239,99</b></p>
+  </div> <a href="chut_ni_rosa.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_ni_azul.html"><img src="chuteiras/azul8.jpg"
+  width="220px" height="215px"></a>
+  <p><b>Chuteira Nike Azul<p>R$219,99</b></p>
+  </div><a href="chut_ni_azul.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="chut_ni_verde.html"><img src="chuteiras/chut_ni_verde.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Nike Verde<p>R$219,99</b></p>
+  </div><a href="chut_ni_verde.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ni_preta.html"><img src="chuteiras/chut_ni_preta.jpg" 
+   width="230px" height="215px"></a>
+  <p><b>Chuteira Nike Preta<p>R$219,99</b></p>
+  </div><a href="chut_ni_preta.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="nike_me.html"><img src="chuteiras/nike mercurial1.jpg" 
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Nike Mercurial<p>R$229,99</b></p>
+  </div> <a href="nike_me.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="chut_6.html"><img src="chuteiras/nike6.jpg"
+  width="210px" height="215px"></a>
+  <p><b>Chuteira Nike Azul e Branco<p>R$289,99</b></p>
+  </div><a href="chut_6.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+
+<div class="bloco">
+  <div class="figure"><div class="efeito">
+  <p> <a href="Nike7.html"><img src="chuteiras/nike7.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Nike Vermelha<p>R$189,99</b></p>
+  </div> <a href="Nike7.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p><a href="chut_ni_me.html"><img src="chuteiras/mercurial3.jpg" 
+   width="210px" height="215px"></a>
+  <p><b>Chuteira Nike Branca<p>R$179,99</b></p>
+  </div><a href="chut_ni_me.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+  
+    <div class="figure"><div class="efeito">
+  <p> <a href="chut_ni_1.html"><img src="chuteiras/chuteira1.jpg" 
+  width="220px" height="215px"></a>
+  <p><b><p>Chuteira Nike Azul<p> R$179,99</b></p>
+  </div><a href="chut_ni_1.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+   
+   <div class="figure">
+    <div class="efeito">
+  <p><a href="cr7.html"><img src="chuteiras/mercurial4.jpg"
+  width="230px" height="215px"></a>
+  <p><b><p>Chuteira Nike CR7 <p> R$189,99</b></p>
+  </div><a href="cr7.html">
+  <button class="botao botao-orange" onclick="get()">
+ <img src="carrinhodecompra.png" width="15px" height="14px"> Comprar
+   </button>
+  </div>
+</div>
+<div id="voltarTopo">
+	<a href="chuteiras.html" id="subir">
+    <button class="botaosinho">
+      <div class="seta"><img src="anuncios/seta.gif" width="60px" height="50px"></div></button></a>
+</div>
+  <br>
+  <br>
+  <div class="content">
+  </div>
+      <footer id="myFooter">
+          <div class="container">
+              <div class="row">
+                  <div class="travel">
+                  <div class="col-sm-2">
+                     <div class="infor"> <h5>Informações</h5></div>
+                      <ul>
+                          <li><a href="sobre a loja.html">Sobre a empresa</a></li>
+                          <li><a href="politica de emtrega.html">Politica de emtrega</a></li>
+                          <li><a href="politica de privacidade.html">Politica de privacidade, termos e condições</a></li>
+                      </ul>
+                  </div>
+                  </div>
+                  <div class="travel">
+                  <div class="col-sm-2">
+                      <div class="ser"><h5>Serviços ao cliente</h5></div>
+                      <ul>
+                        <br>
+                          <li><a href="contato.html">Entre em contato</a></li>
+                          <li><a href="solicitar devolçução.html">Solicitar devolução</a></li>
+                      </ul>
+                  </div>
+                  </div>
+                  <div class="travel">
+                  <div class="col-sm-2">
+                      <div class="outros"><h5>Outros serviços</h5></div>
+                      <ul>
+                        <br>
+                        
+                          <li><a href="Produtos por marca.html">Produtos por marca</a></li>
+                          <li><a href="produtos em promoção.html">Produtos em promoção</a></li>
+                      </ul>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-copyright">
+              <p>© New Sports 2018-2019 - São Benedito-CE - Bairro do Cruzeiro - CEP: 62370-000</p>
+          </div>
+      </footer>
+  </body>
+  
+  </html>
+  

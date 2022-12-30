@@ -1,0 +1,360 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+/* Starter CSS for Menu */
+
+#cssmenu {
+  padding: 0;
+  border: 0;
+  width: auto;
+  margin-top: 30px;
+}
+#cssmenu ul,
+#cssmenu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul {
+  position: relative;
+  z-index: 597;
+}
+#cssmenu ul li {
+  float: left;
+  min-height: 1px;
+  vertical-align: middle;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#cssmenu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 598;
+  width: 100%;
+}
+#cssmenu ul ul li {
+  float: none;
+}
+#cssmenu ul ul ul {
+  top: 0;
+  left: 190px;
+  width: 190px;
+}
+#cssmenu ul li:hover > ul {
+  visibility: visible;
+}
+#cssmenu ul ul {
+  bottom: 0;
+  left: 0;
+}
+#cssmenu ul ul {
+  margin-top: 0;
+}
+#cssmenu ul ul li {
+  font-weight: normal;
+}
+#cssmenu a {
+  display: block;
+  line-height: 1em;
+  text-decoration: none;
+}
+/* Custom CSS Styles */
+#cssmenu {
+  background: #333333;
+  border-bottom: 3px solid #ff8c00;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  font-size: 12px;
+}
+#cssmenu > ul {
+  *display: inline-block;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu ul {
+  text-transform: uppercase;
+}
+#cssmenu ul ul {
+  border-top: 4px solid #ff8c00;
+  text-transform: none;
+  min-width: 190px;
+}
+#cssmenu ul ul a {
+  background: #333333;
+  color: #ffffff;
+  border: 1px solid #ff8c00;
+  border-top: 0 none;
+  line-height: 150%;
+  padding: 18px 22px;
+  font-size: 12px;
+}
+#cssmenu ul ul ul {
+  border-top: 0 none;
+}
+#cssmenu ul ul li {
+  position: relative;
+}
+#cssmenu ul ul li:first-child > a {
+  border-top: 1px solid #ff8c00;
+}
+#cssmenu ul ul li:hover > a {
+  background: #ff8c00;
+  color: #ffffff;
+  transition: .3s;
+}
+#cssmenu ul ul li:last-child > a {
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -moz-box-shadow: 0 1px 0 #ff8c00;
+  -webkit-box-shadow: 0 1px 0 #ff8c00;
+  box-shadow: 0 1px 0 #ff8c00;
+}
+#cssmenu ul ul li:last-child:hover > a {
+  -moz-border-radius: 0 0 0 3px;
+  -webkit-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#cssmenu ul ul li.has-sub > a:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -8px;
+}
+#cssmenu ul li:hover > a,
+#cssmenu ul li.active > a {
+  background: #ff8c00;
+  color: #ffffff;
+}
+#cssmenu ul li.has-sub > a:after {
+  content: '+';
+  margin-left: 20px;
+}
+
+#cssmenu ul li.last ul {
+  left: auto;
+  right: 0;
+}
+
+#cssmenu ul li.last ul ul {
+  left: auto;
+  right: 99.5%;
+}
+
+#cssmenu a {
+  background: #333333;
+  color: rgb(230, 220, 220);
+  padding: 0 20px;
+}
+
+#cssmenu > ul > li > a {
+  line-height: 48px;
+  font-size: 12px;
+}
+.w3-content {
+  padding-right: 0px;
+}
+ 
+#rodape{
+      text-align: center;
+      color: black;
+      background-color:#ff8c00;
+      width:100%;
+      height:200px;
+      bottom:0;
+      margin-left:0px;  
+      margin-top:300px;
+      }
+
+      .pt1 {
+        width: 90%;
+        text-align: none;
+        border-bottom: 1px solid #000;
+        display: inline-block;
+      }
+
+      .pt2 {
+        text-align: center;
+      }
+
+      .pt3 {
+        text-align: justify;
+        padding-right: 25px; 
+        display: inline-block;
+      }
+
+      .pt4 {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .pt5 {
+        font-weight: bold;
+      }
+  
+
+.contato{
+  display: inline-block;
+  margin: 70px;
+  text-align: center;
+}
+
+.formula{
+	font-family: Rockwell;
+	display: inline-block;
+}
+
+header{
+  height: 150px;
+  width: 100%;
+  background-color: rgba(143, 141, 134, 0.281);
+}
+
+.lo{
+  margin-left:190px;
+}
+
+#divBusca{
+  background-color:rgb(255, 255, 255);
+  border:solid 2px rgb(245, 117, 12);
+  border-radius:10px;
+  width:500px;
+  height:32px;
+  margin-left: 700px;
+  margin-top: -66px;
+  
+}
+ 
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+   outline: none;
+}
+ 
+#btnBusca{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:rgb(238, 117, 4);
+  margin-left: 200px;
+  margin-top: -34px;
+}
+ 
+#divBusca img{
+  float:left;
+}
+
+.ags {
+  text-align: center;
+}
+div.caixa2{
+float: left;
+  width: 250px;
+  height:200px;
+  border:#ff8c00  solid 1.5px;
+  margin-left: 550px;
+  margin-left:600px;
+  margin-top: 20px;
+  padding: 15px;
+  padding-bottom:100px;
+  text-align: left;
+  font-family: times new roman;
+  font-size: 20px;
+  text-indent: 0;
+  line-height: 15px;
+  border-radius:10%;
+}
+h2{
+  font-size:30px;
+  text-align: center;
+}
+.barra{
+  width:200px;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  height: 20px;
+}
+input{
+  margin-bottom:10px;
+  margin-left:5px;
+  align-content:center;
+  margin-top:10px;
+}
+#divBusca img{
+  float:left;
+}
+#divBusca{
+  background-color:rgb(255, 255, 255);
+  border:solid 2px rgb(245, 117, 12);
+  border-radius:10px;
+  width:500px;
+  height:32px;
+  margin-left: 700px;
+  margin-top: -66px;
+  
+}
+ 
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+  outline: none;
+  margin-top: -3px;
+}
+ 
+#btnBusca{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:rgb(238, 117, 4);
+  margin-left: 200px;
+  margin-top: -41px;
+}
+.botao{
+  font-family: arial;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding:11px;
+  position: relative;
+  cursor: pointer;
+  border-radius:60px;
+  width: 200px;  
+  margin-top:40px;
+  }
+  .ok{
+  margin-left:20px;
+  background:#ff8c00;
+  color:#fff;
+  }

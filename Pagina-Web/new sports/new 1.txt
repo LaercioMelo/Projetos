@@ -1,0 +1,269 @@
+
+<html>
+<head>
+<meta http-equiv="content-type"content="text/html;
+charset=utf-8" />
+<title>New Sports</title>
+<link rel="shortcut icon" href="logo.jpg"/>
+<style type="text/css">
+ <!--
+  body {
+  padding:0px;
+  margin:0px;
+  }
+  
+  #menu ul li a:hover{
+  border-bottom: 3px solid black 
+  }
+  
+  #menu ul {
+  padding: 10px;
+  margin: 0px;
+  float: left;
+  width: 100%;
+  
+  background-color:orange;
+  list-style: none;
+  font:100% Tahoma;
+  }
+  
+  #menu ul li { 
+	display: inline; 
+  }
+  
+  #menu ul li a {
+  background-color: #orange;
+  color: #444;
+  text-decoration: none;
+  border-bottom:3px solid #orange;
+  padding: 5px 75px;
+  }
+  
+  #menu ul li a: hover {
+  background-color: #EDEDED;
+  color: #6D6D6D;
+  border-bottom:3px solid #EA0000;
+  }
+
+  
+  div.figure1 {
+  float: left;
+  width: 275px;
+  border: #000 solid 1.5px;
+  margin: 11px;
+  margin-left: 10px;
+  padding: 17px;
+  padding-bottom:13px;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 17px;
+  text-indent: 0;
+  line-height: 15px;
+  
+  }
+  div.figure2 {
+  float: left;
+  width: 275px;
+  border: #000 solid 1.5px;
+  margin: 11px;
+  padding: 17px;
+  padding-bottom:13px;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 17px;
+  text-indent: 0;
+  line-height: 15px;
+  }
+   div.figure3 {
+  float: left;
+  width: 275px;
+  border: #000 solid 1.5px;
+  margin: 11px;
+  padding: 17px;
+  padding-bottom:13px;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 17px;
+  text-indent: 0;
+  line-height: 15px;
+  }
+   div.figure4 {
+  float: left;
+  width: 275px;
+  border: #000 solid 1.5px;
+  margin: 11px;
+  margin-right: 10px;
+  padding: 17px;
+  padding-bottom:13px;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 17px;
+  text-indent: 0;
+  line-height: 15px;
+  }
+  
+   div.figure5 {
+  float: left;
+  width: 275px;
+  border: #000 solid 1.5px;
+  margin: 11px;
+  margin-left: 10px;
+  padding: 17px;
+  padding-bottom:13px;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 17px;
+  text-indent: 0;
+  line-height: 15px;
+  }
+   div.figure6 {
+  float: left;
+  width: 275px;
+  border: #000 solid 1.5px;
+  margin: 11px;
+  padding: 17px;
+  padding-bottom:13px;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 17px;
+  text-indent: 0;
+  line-height: 15px;
+  }
+   div.figure7 {
+  float: left;
+  width: 275px;
+  border: #000 solid 1.5px;
+  margin: 11px;
+  padding: 17px;
+  padding-bottom:13px;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 17px;
+  text-indent: 0;
+  line-height: 15px;
+  }
+   div.figure8 {
+  float: left;
+  width: 275px;
+  border: #000 solid 1.5px;
+  margin: 11px;
+  margin-right: 10px;
+  padding: 17px;
+  padding-bottom:13px;
+  text-align: center;
+  font-family: times new roman;
+  font-size: 17px;
+  text-indent: 0;
+  line-height: 15px;
+  }
+   div.figure a {
+   text-decoration: none;
+   }
+   
+   .marque img{
+   padding:20px;
+   }
+   
+   
+    
+    #rodape{
+   color:#black;
+   background-color:#ff8c00;
+   width:100%;
+   height:70px;
+   bottom:0;
+   text-align:center;
+   margin-left:0px;
+   margin-top:5px;
+   }
+ #rodape p {
+	
+ }
+   
+   
+   
+  -->
+  
+  </style>
+  </head>
+  <body >
+  <center><img src="logo.jpg" height="150px"/></center> 
+  <div id="menu">
+  <ul>
+  <b>
+  <li><a href="menu principal.html">Principal
+  </a></li>
+  <li><a href="blusas.html">Blusas
+  </a></li>
+  <li><a href="shorts.html">Shorts
+  </a></li>
+  <li><a href="chuteiras.html">Chuteiras
+  </a></li>
+  <li><a href="contato.html">Contato
+  </a></li>
+   <li><a href="formulario.html">Cadastrar-se
+  </a></li>
+  </b>
+  </ul>
+  </div>
+  <div class="figure1">
+  <p> <a href="real.html"><img src="real madrid.jpg" title="Blusa principal do Real madrid." width="220px" height="235px"></a>
+ <p> <b>Real Madrid <p>R$199,99</b></p>
+  
+  </div>
+  
+   <div class="figure2">
+  <p> <a href="alemanha.html"><img src="alemanha frente.jpg" title="Blusa principal da alemanha." width="220px" height="235px"></a>
+  <p> <b>Alemanha<p>R$229,99</b></p>
+  
+  </div>
+  
+    <div class="figure3">
+  <p> <a href="paris.html"><img src="paris.jpg" title="Blusa principal do paris saint germain" width="220px" height="235px"></a>
+  <p><b>Paris Saint Germain<p>R$249,99</b></p>
+  
+  </div>
+  
+    <div class="figure4">
+  <p> <a href="juventus.html"><img src="juventus frente.jpg" title="Blusa principal da juventus" width="220px" height="235px"></a>
+  <p><b>Juventus<p>R$249,99</b></p>
+  
+  </div>
+  <br>
+  <br>
+  
+    <div class="figure5">
+  <p> <a href="calção real.html"><img src="calção real madrid principal.jpg" title="Calção principal do real madrid" width="220px" height="235px"></a>
+  <p><b>Calção do Real Madrid <p>R$71,99</b></p>
+  
+  </div>
+  
+    <div class="figure6">
+  <p> <a href="calção brasil.html"><img src="calção do brasil.jpg" title="Calção principal do brasil" width="220px" height="235px"></a>
+  <p><b>Calção do Brasil<p>R$86,99</b></p>
+  
+  </div>
+  
+    <div class="figure7">
+  <p> <a href="chuteira nike preta.html"><img src="chuteira1.jpg" title="Chuteira da nike preta " width="220px" height="235px"></a>
+  <p><b>Chuteira Nike Preta <p>R$224,99</b></p>
+  
+  </div>
+  
+    <div class="figure8">
+  <p> <a href="chuteira cr7.html"><img src="mercurial4.jpg" title="Chuteira CR7 mercurial vermelha" width="220px" height="235px"></a>
+  <p><b>Chuteira CR7 <p>R$286,99</b></p>
+  
+  </div>
+  <marquee class="marque">
+  <img src="onefotebol.png" width="400px" height="210px">
+  <img src="mizuno.jpg" width="400px" height="210px">
+  <img src="nikemarcapreta.jpg" width="400px" height="210px">
+  </marquee>
+ <div id="rodape">
+  <p> <a href="ler mais.html">Sobre  </a>
+  <br>
+  ©New Sports 2018-2019 - São Benedito-CE - Bairro do Cruzeiro - CEP: 62370-000</p>
+  </div>
+</body>
+</html>

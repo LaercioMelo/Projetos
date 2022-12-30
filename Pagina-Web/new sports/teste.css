@@ -1,0 +1,394 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+/* Starter CSS for Menu */
+
+#cssmenu {
+  padding: 0;
+  border: 0;
+  width: auto;
+  margin-top: 30px;
+}
+#cssmenu ul,
+#cssmenu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul {
+  position: relative;
+  z-index: 597;
+}
+#cssmenu ul li {
+  float: left;
+  min-height: 1px;
+  vertical-align: middle;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#cssmenu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 598;
+  width: 100%;
+}
+#cssmenu ul ul li {
+  float: none;
+}
+#cssmenu ul ul ul {
+  top: 0;
+  left: 190px;
+  width: 190px;
+}
+#cssmenu ul li:hover > ul {
+  visibility: visible;
+}
+#cssmenu ul ul {
+  bottom: 0;
+  left: 0;
+}
+#cssmenu ul ul {
+  margin-top: 0;
+}
+#cssmenu ul ul li {
+  font-weight: normal;
+}
+#cssmenu a {
+  display: block;
+  line-height: 1em;
+  text-decoration: none;
+}
+/* Custom CSS Styles */
+#cssmenu {
+  background: #333333;
+  border-bottom: 3px solid #ff8c00;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  font-size: 12px;
+}
+#cssmenu > ul {
+  *display: inline-block;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu ul {
+  text-transform: uppercase;
+}
+#cssmenu ul ul {
+  border-top: 4px solid #ff8c00;
+  text-transform: none;
+  min-width: 190px;
+}
+#cssmenu ul ul a {
+  background: #333333;
+  color: #ffffff;
+  border: 1px solid #ff8c00;
+  border-top: 0 none;
+  line-height: 150%;
+  padding: 18px 22px;
+  font-size: 12px;
+}
+#cssmenu ul ul ul {
+  border-top: 0 none;
+}
+#cssmenu ul ul li {
+  position: relative;
+}
+#cssmenu ul ul li:first-child > a {
+  border-top: 1px solid #ff8c00;
+}
+#cssmenu ul ul li:hover > a {
+  background: #ff8c00;
+  color: #ffffff;
+  transition: .3s;
+}
+#cssmenu ul ul li:last-child > a {
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -moz-box-shadow: 0 1px 0 #ff8c00;
+  -webkit-box-shadow: 0 1px 0 #ff8c00;
+  box-shadow: 0 1px 0 #ff8c00;
+}
+#cssmenu ul ul li:last-child:hover > a {
+  -moz-border-radius: 0 0 0 3px;
+  -webkit-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#cssmenu ul ul li.has-sub > a:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -8px;
+}
+#cssmenu ul li:hover > a,
+#cssmenu ul li.active > a {
+  background: #ff8c00;
+  color: #ffffff;
+}
+#cssmenu ul li.has-sub > a:after {
+  content: '+';
+  margin-left: 20px;
+}
+
+#cssmenu ul li.last ul {
+  left: auto;
+  right: 0;
+}
+
+#cssmenu ul li.last ul ul {
+  left: auto;
+  right: 99.5%;
+}
+
+#cssmenu a {
+  background: #333333;
+  color: rgb(230, 220, 220);
+  padding: 0 20px;
+}
+
+#cssmenu > ul > li > a {
+  line-height: 48px;
+  font-size: 12px;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    background-color: rgba(143, 141, 134, 0.281);
+  }
+  
+  .lo{
+    margin-left:190px;
+  }
+  
+  #divBusca{
+    background-color:rgb(255, 255, 255);
+    border:solid 2px rgb(245, 117, 12);
+    border-radius:10px;
+    width:500px;
+    height:32px;
+    margin-left: 700px;
+    margin-top: -66px;
+    
+  }
+   
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:20px;
+    width:191px;
+     outline: none;
+  }
+   
+  #btnBusca{
+    border:none;
+    float:right;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:rgb(238, 117, 4);
+    margin-left: 200px;
+    margin-top: -40px;
+  }
+   
+  #divBusca img{
+    float:left;
+  }
+
+  .bloco{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+body{
+margin: 0;
+padding: 0;
+}
+form{
+font-size: 16px;
+background: #ff8c00;
+max-width: 400px;
+margin: 0 auto;
+padding: 0 10px 10px 10px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+h1{
+color: #000
+}
+input, textarea{
+width: 374px;
+padding: 10px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+.enviar input {
+background-color: #000;
+height: 40px;
+width: 150px;
+font-weight: bold;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border: 1px solid;
+color: #FFF;
+cursor: pointer;
+}
+.enviar input:hover{
+background-color: #b4b4b4;    
+opacity: 0.8;
+} 
+textarea {
+width: 374px;
+height: 120px;
+line-height: 20px;
+}
+
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 0px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #ff8c00;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#myFooter .row {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 5px;
+    height: 15px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 100px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.3s;
+}
+.ags {
+    text-align: center;
+  }
+.travel{
+    display: inline-block;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #ff8c00;
+    border-radius: 20px;
+    border: none;
+    width: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 30px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+.infor{
+margin-right: 50px;
+}
+
+.ser{
+margin-left: 80px;
+}
+
+.outros{
+margin-left: 70px;
+}

@@ -1,0 +1,225 @@
+
+<html lang="pt-br">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesca.css">
+  <link rel="shortcut icon" href="logo.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <link rel="shortcut icon" href="favicon.ico"> 
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="js/jquery.mask.js" type="text/javascript"></script>
+  <script src="script.js"></script>
+  <title>Cadastro</title>
+ <style>
+ .mySlides {display:none;}
+</style>
+<script>
+ $(function(){
+   $('#cpf').mask('000.000.000-00');
+   $('#datav').mask('00/00/0000');
+   $('#numero').mask('0000 0000 0000 0000');
+   $('#codigo').mask('000');
+   $('#cep').mask('00000-000');
+   $('#data_nasc').mask('00/00/0000');
+ });
+</script>
+</head>
+<body>
+  <header>
+  <div class="lo"><img src="ima/logo.png" height="150px"/></div>
+</header>
+
+<div id="divBusca">
+  <img src="ima/lupa.png" height="30px" width="35px" alt="Buscar..."/>
+  <input type="text" id="txtBusca" placeholder="Buscar..."/>
+  <button id="btnBusca">Buscar</button>
+</div>
+
+<div id='cssmenu'>
+<ul>
+   <li class='  last'><a href="menu principal.html"><span>Principal</span></a></li>
+   <li class=' has-sub'><a href="blusas.html"><span>Blusas</span></a>
+      <ul>
+         <li class='has-sub'><a href="Nacionais.html"><span>Nacionais</span></a>
+         </li>
+         <li class='has-sub'><a href="internacionais.html"><span>Internacionais</span></a>           
+         </li>
+     <li class='has-sub'><a href="Seleções.html"><span>Seleções</span></a>  
+         </li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href="shorts.html"><span>Calções</span></a>
+   <ul>
+         <li class='has-sub'><a href="calções nacio.htm"><span>Nacionais</span></a>
+         </li>
+         <li class='has-sub'><a href="calções inter.htm"><span>Internacionais</span></a>  
+         </li>
+     <li class='has-sub'><a href="calções sele.htm"><span>Seleções</span></a>  
+         </li>
+      </ul>
+   <li class='has-sub'><a href="chuteiras.html"><span>Chuteiras</span></a>
+   <ul>
+         <li class='has-sub'><a href="#"><span>+</span></a>
+     <ul>
+     <li class='last'><a href="kappa.html"><span>Kappa</span></a>  
+         </li>
+     <li class='last'><a href="puma.html"><span>Puma</span></a>  
+         </li>
+     <li class='last'><a href="penalty.html"><span>Penalty</span></a>  
+         </li>
+      </ul>
+         </li>
+         <li class='has-sub'><a href="nike.html"><span>Nike</span></a>
+         </li>
+         <li class='has-sub'><a href="adidas.html"><span>Adidas</span></a>  
+         </li>
+     <li class='has-sub'><a href="umbro.html"><span>Umbro</span></a>  
+     </li>
+      </ul>
+   <li class='has-sub'><a href="bolas.html"><span>Bolas</span></a>
+     <ul>
+     <li class='last'><a href="bope.html"><span>Penalty</span></a>  
+         </li>
+         <li class='has-sub'><a href="boni.html"><span>Nike</span></a>
+         </li>
+         <li class='has-sub'><a href="boad.html"><span>Adidas</span></a>  
+         </li>
+     </li>
+</ul>
+  </li>
+   <li class='has-sub'><a href="agasalhos.html"><span>Agasalhos</span></a>
+     <ul>
+     <li class='last'><a href="agna.html"><span>Nacional</span></a>  
+         </li>
+     <li class='last'><a href="agni.html"><span>Internacionais</span></a>  
+         </li>
+         <li class='has-sub'><a href="agse.html"><span>Seleções</span></a>
+         </li>
+     </li>
+</ul>
+  </li>
+   <li class='last'><a href="contato.html"><span>Contato</span></a></li>
+   <li class='active'><a href='#'><span>Cadastre-se</span></a></li>
+</ul>
+</div>
+<br>
+<br>
+<div class="caixa">
+<h2>Cadastre-se</h2>
+
+<h5>Dados do Usuário</h5>
+<form method="post" action="submit_cad.php">
+  <div class="row">
+  <div class="nabo">
+  <label for="">Nome Completo</label><br><br>
+  <input class="barra" type="text" name="nome" placeholder="Digite seu nome completo."></div>
+  <div class="nabo"> 
+  <label for="">Email</label><br><br>
+  <input class="barra" type="email" name="email"placeholder="Digite um email válido.">
+  </div></div>
+  <div class="row">
+  <div class="nabo"> 
+  <label for="">Senha</label><br><br>
+  <input class="barra" type="password" name="password" placeholder="Digite uma senha forte."></div>
+  <div class="nabo">
+  <label for="">CEP</label><br><br>
+  <input class="barra" type="text" name="cep" id="cep" placeholder="Digite o mais próximo da sua casa.">
+  </div></div>
+  <div class="row">
+  <div class="nabo"> 
+  <label for="">Telefone</label><br><br>
+  <input class="barra" type="text" name="tel"placeholder="Digite seu telefone."></div>
+  <div class="nabo"> 
+  <label for="">Data de nascimento</label><br><br>
+  <input class="barra" type="text" name="data_nasc" id="data_nasc" placeholder="Digite sua data.">
+  </div></div>
+  <h5>Dados de Compra</h5>
+  <div class="row">
+  <div class="nabo"> 
+  <label for="">CPF</label><br><br>
+  <input class="barra" type="text" name="cpf" id="cpf" placeholder="Digite seu CPF."></div>
+  <div class="nabo"> 
+    <label for="">Cartão de Crédito (Opcional)</label><br><br>
+    <input class="barra" type="text" name="name_card" placeholder="Digite o nome do seu cartão.">
+  </div></div>
+  <div class="row">
+    <div class="nabo"> 
+    <label for="">Número do cartão</label><br><br>
+    <input class="barra" type="text" name="num_card" id="numero" placeholder="Digite um número válido."></div>
+    <div class="nabo"> 
+      <label for="">Data de vencimento</label><br><br>
+      <input class="barra" type="text" name="data_venc" id="datav" placeholder="Dia, mês e ano">
+    </div></div>
+    <div class="row">
+      <div class="nabo"> 
+      <label for="">Código de segurança</label><br><br>
+      <input class="barra" type="text" name="secure_code" id="codigo" placeholder="Digite um número válido."></div>
+    <div class="nabo"> 
+    <label for="">Bandeira</label><br><br>
+    <div class="bandeira">
+    <input type="radio" name="band" value="mastercard"/><label id="mastercard">
+      <img src="anuncios/mastercard.png" width="45px" height="35px"> </label>
+    <input type="radio" name="band" value="visa"/><label id="visa">
+      <img src="anuncios/visa.png" width="45px" height="35px"> </label>
+    <input type="radio" name="band" value="elo"/><label id="elo">
+      <img src="anuncios/elo.png" width="40px" height="40px"> </label>
+  </div></div></div>
+
+  <div class="baixo">
+              <input class="botao enviar" type="submit" value="Cadastrar">
+              <input class="botao limpar" type="reset" value="limpar">
+</div>              
+            </form>
+<br>  
+<br>            
+</div>
+<center>
+  <footer id="myFooter">
+     <div class="container">
+         <div class="row">
+             <div class="travel">
+             <div class="col-sm-2">
+                <div class="infor"> <h5>Informações</h5></div>
+                 <ul>
+                     <li><a href="sobre a loja.html">Sobre a empresa</a></li>
+                     <li><a href="politica de emtrega.html">Politica de emtrega</a></li>
+                     <li><a href="politica de privacidade.html">Politica de privacidade, termos e condições</a></li>
+                 </ul>
+             </div>
+             </div>
+             <div class="travel">
+             <div class="col-sm-2">
+                 <div class="ser"><h5>Serviços ao cliente</h5></div>
+                 <ul>
+                   <br>
+                     <li><a href="contato.html">Entre em contato</a></li>
+                     <li><a href="solicitar devolçução.html">Solicitar devolução</a></li>
+                 </ul>
+             </div>
+             </div>
+             <div class="travel">
+             <div class="col-sm-2">
+                 <div class="outros"><h5>Outros serviços</h5></div>
+                 <ul>
+                   <br>
+                   
+                     <li><a href="Produtos por marca.html">Produtos por marca</a></li>
+                     <li><a href="produtos em promoção.html">Produtos em promoção</a></li>
+                 </ul>
+             </div>
+             </div>
+         </div>
+     </div>
+     
+     <div class="footer-copyright">
+         <p>© New Sports 2018-2019 - São Benedito-CE - Bairro do Cruzeiro - CEP: 62370-000</p>
+     </div>
+ </footer>
+ </center>
+
+</div>
+</body>
+</html>

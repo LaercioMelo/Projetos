@@ -1,0 +1,14 @@
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+
+
+CREATE TABLE IF NOT EXISTS `usuario` (
+  `nome` varchar(32) NOT NULL,
+  `endereço` varchar(32) NOT NULL,
+  `cpf` varchar(14) NOT NULL,
+  `cep` varchar(9) NOT NULL,
+  `email` varchar(40) NOT NULL,
+  `senha` varchar(32) NOT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;

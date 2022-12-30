@@ -1,0 +1,87 @@
+
+<html>
+<head>
+<title>menu horizontal</title>
+<style type="text/css">
+.flip-container {
+	perspective: 1000;
+}
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+
+.back {
+	transform: rotateY(180deg);
+}
+
+.box{
+  width:320px;
+  height:480px;
+  line-height:300px;
+  cursor:pointer;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+  
+  </style>
+  </head>
+  <body>
+  <font color=blue align=center><h1>New Sports</h1></font>
+  <div id="menu">
+  <ul>
+  <li><a href="principal.html">Principal
+  </a></li>
+  <li><a href="blusas.html">Blusas
+  </a></li>
+  <li><a href="shorts.html">Shorts
+  </a></li>
+  <li><a href="chuteiras.">Chuteiras
+  </a></li>
+  <li><a href="contato.html">Contato
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+			<div class="box box-front">
+			<img src="ajax.jpg"
+  width="320px" height="480px">
+			</div>
+		</div>
+		<div class="back">
+			<div class="box box-back">
+			<img src="ajax costas.jpg"
+  width="320px" height="480px">
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

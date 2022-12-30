@@ -1,0 +1,71 @@
+﻿body {
+    padding: 50px 100px;
+    font-size: 13px;
+    font-family: arial, Tahoma, sans-serif;
+}
+
+a { color:#000; }
+
+h2 {
+    margin-bottom: 20px;
+    color: #133141;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    width: 200px;
+    color: #999999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+textarea {
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+    line-height: 18px;
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: 1px solid #C9C9C9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;     
+}
+.form label {
+    margin-bottom: 10px;
+    color: #999999;
+    display: block;
+}
+ .botao{
+  font-family: arial;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding:11px;
+  position: relative;
+  cursor: pointer;
+  display:inline-block;
+  margin-right:40px;
+  margin-left:10px;
+  margin-top:10px
+  border-radius:5%;
+  width: 150px;  
+  
+  }
+  .botao-orange{
+  margin-left: 40px;
+  background:#ff8c00;
+  color:#fff;
+  box-shadow:0 10px 0 #ff4500;
+  }
+   .botao-orange:hover{
+  color: black;
+  box-shadow:0 10px 0 #ff4500;
+  }
+    .botao-orange:active{
+  position:relative;
+  top:10px;
+  box-shadow:none;
+}

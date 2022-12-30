@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="logo.jpg"/>
+   <link rel="stylesheet" href="compra.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <script type="text/javascript">
+    function get() {
+      var conf = window.confirm("Para realiza a compra é necessário o cadastro, se você já realizou o cadastro clique em ok ? ");
+      if (conf == true) {
+        window.open("finalização de compra.html");
+      }else{
+        window.open("menu principal.html");
+      }
+
+    }
+  </script>
+   <title>Topper</title>
+</head>
+<body>
+  <center><img src="logo.jpg" height="150px"/></center>
+
+<div id='cssmenu'>
+<ul>
+   <li class=' last'><a href='menu principal.html'><span>Principal</span></a></li>
+   <li class='has-sub'><a href="blusas.html"><span>Blusas</span></a>
+      <ul>
+         <li class='has-sub'><a href="Nacionais.html"><span>Nacionais</span></a>
+         </li>
+         <li class='has-sub'><a href="internacionais.html"><span>Internacionais</span></a>           
+         </li>
+     <li class='has-sub'><a href="Seleções.html"><span>Seleções</span></a>  
+         </li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href="shorts.html"><span>Calção</span></a>
+   <ul>
+         <li class='has-sub'><a href="calções.htm"><span>Nacionais</span></a>
+         </li>
+         <li class='has-sub'><a href="calções.htm"><span>Internacionais</span></a>  
+         </li>
+     <li class='has-sub'><a href="calções sele.htm"><span>Seleções</span></a>  
+         </li>
+      </ul>
+  <li class=' active has-sub'><a href="chuteiras.html"><span>Chuteiras</span></a>
+   <ul>
+         <li class='has-sub'><a href="#"><span>+</span></a>
+     <ul>
+     <li class='last'><a href="mizuno.html"><span>Mizuno</span></a>  
+         </li>
+     <li class='last'><a href="topper.html"><span>Topper</span></a>  
+         </li>
+     <li class='last'><a href="kappa.html"><span>Kappa</span></a>  
+         </li>
+     <li class='last'><a href="puma.html"><span>Puma</span></a>  
+         </li>
+     <li class='last'><a href="penalty.html"><span>Penalty</span></a>  
+         </li>
+      </ul>
+         </li>
+         <li class='has-sub'><a href="nike.html"><span>Nike</span></a>
+         </li>
+         <li class='has-sub'><a href="adidas.html"><span>Adidas</span></a>  
+         </li>
+     <li class='has-sub'><a href="umbro.html"><span>Umbro</span></a>  
+     </li>
+      </ul>
+   <li class='last'><a href="contato.html"><span>Contato</span></a></li>
+   <li class='last'><a href="formulario.html"><span>Cadastre-se</span></a></li>
+</ul>
+</div>
+<br>
+ 
+  <div class="compra">
+ <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front">
+      <div class="box box-front">
+      <img src="chut_to_preto.jpg"
+  width="260px" height="260px">
+      </div>
+    </div>
+    <div class="back">
+      <div class="box box-back">
+      <img src="chut_to_preto2.jpg"
+  width="260px" height="290px">
+      </div>
+    </div>
+  </div>
+</div>
+ <div class="valores"> 
+ <h2>Valor: R$ 179,99</h2>
+<h2><legend>Dados da compra:</legend>
+<table cellspacing="10">
+<tr>
+<td>
+<label for="cores">Variações de cores:</label>
+</td>
+<td>
+<select name="cores">
+<option value="rosa">Rosa
+</option>
+<option value="azul">Azul
+</option>
+<option value="preta">Preta
+</option>
+<option value="branca">Branca
+</option>
+<option value="prata">Prata
+</option>
+</td>
+<tr>
+<td>
+<label for="tamanho">Numeração:</label>
+</td>
+<td >
+<input type="text" name="dia" size="2" maxlength="2">
+</td>
+<tr>
+<td>
+<label for="opções de pagamento">Opções de pagamento:</label>
+</td>
+<td >
+<select name="Short">
+<option value="crédito">Crédito
+</option>
+<option value="débito">Débito
+</option>
+<option value="boleto bancario">Boleto bancario 
+</option>
+</td>
+</tr>
+<tr>
+<td>
+<label for="Forma de pagamento">Parcelamento:</label>
+</td>
+<td align="left">
+<select name="Chuteira">
+<option value="a vista">À vista
+</option>
+<option value="2x">2x
+</option></option>
+<option value="3x">3x
+<option value="4x">4x
+</div>
+</option>
+</select>
+</td>
+</tr>
+</table>
+</h2>
+<div class="detalhes">
+<button class="botao botao-orange" onclick="get()">Comprar</button>
+</div>
+</div>
+
+</option>
+</select>
+</td>
+</tr>
+</select>
+</td>
+</tr>
+</tr>
+</select>
+</td>
+</tr>
+</table>
+</h2>
+</div>
+</div>
+</li><div class="propaganda">
+  <section class="galeria">
+  <img class="foto" src="adidasmarca.png"  width="500px"
+    height="360px"/>
+  <img class="foto" src="onefotebol.png" width="500px"
+    height="360px"/>
+  <img class="foto" src="nikemarcapreta.jpg" width="500px"
+    height="360px"/>
+
+</section> 
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<div id="rodape">
+  <footer>
+    <div class="pt1">
+      <div class="pt3">
+        <ul> <p class="pt4">Informações</p>
+         <li><a href="Sobre a loja.html"><font color="black"> Sobre a loja</font></a></li>
+          <li><a href="politica de entrega.html"><font color="black">Politica de entrega</font></a></li>
+          <li><a href="politica de privacidade.html"><font color="black">Politica de privacidade, termos e condições</font></a></li>
+        </ul>
+      </div>
+      <div class="pt3">
+        <ul> <p class="pt4">Serviços ao cliente</p>
+          <br>
+          <li><a href="contato.html"><font color="black">Entre em contato</a></li>
+          <li><a href="Solicitar devoluçao.html"><font color="black">Solicitar devolução</font></a></li>
+        </ul>
+      </div>
+      <div class="pt3">
+        <ul> <p class="pt4">Outros serviços</p>
+          <br>
+          <li><a href="produtos por marca.html"><font color="black">Produtos por marca</font></a></li>
+          <li><a href="produtos em promoçao.html"><font color="black">Produtos em promoção</font></a></li>
+        </ul>
+      </div>
+    </div><br>
+    <div class="pt2">
+      <p class="pt5">CNew Sports 2018-2019 - Sao Benedito-CE - Bairro do Cruzeiro - CEP: 62370-000</p>
+    </div>
+  </footer>  
+</div>
+</body>
+<html>
